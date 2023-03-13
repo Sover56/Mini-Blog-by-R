@@ -1,0 +1,117 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #e7d3cc;
+  padding-top: 60px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.548);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+h1{
+  margin: 0;
+  margin-left: 50px;
+  color: rgb(106, 156, 221);
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-wrapper{
+  width: 60%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.author {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.author-info{
+  /* background-color:rgb(155, 190, 235); */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.first-pic {
+  width: 60%;
+}
+
+.sec-pic {
+  width: 50%;
+}
+
+.span-title{
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pic-3{
+  width: 50%;
+}
+
+.pic-4{
+  width: 100%;
+}
+
+@media (max-width:800px) {
+  .first-pic {
+    width: 100%;
+  }
+  .sec-pic {
+    width: 100%;
+  }
+  .pic-3{
+    width: 100%;
+  }
+  .pic-4{
+    width: 100%;
+  }
+
+  h2{
+    display: none;
+  }
+
+  .body-wrapper{
+    width: 90%;
+  }
+
+  .title{
+    font-size: 23px;
+  }
+
+  .span-title{
+    font-size: 18px;
+  }
+}
